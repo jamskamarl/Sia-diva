@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f3">
+  <title>Happy Birthday, Sia Diva!</title>
+  <style>
+    :root{--ink:#382633;--muted:#786674;--berry:#d63384;--pink:#ffe0ef;--cream:#fff7fc;--gold:#edb84e;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:ui-rounded,"Avenir Next",Avenir,system-ui,sans-serif}
+    button{font:inherit}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}.hero{min-height:92vh;display:grid;align-items:center;position:relative;overflow:hidden;padding:56px 0;background:radial-gradient(ellipse at 12% 18%,#ffd9eb 0,transparent 37%),radial-gradient(ellipse at 89% 80%,#fff0f7 0,transparent 35%),var(--cream)}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font-size:11px;font-weight:800;color:var(--berry)}h1{font-family:Georgia,serif;font-size:clamp(54px,8vw,96px);font-weight:500;letter-spacing:-.065em;line-height:.94;margin:18px 0}h1 em{color:var(--berry);font-weight:500}.intro{font-family:Georgia,serif;font-size:clamp(18px,2.3vw,22px);line-height:1.65;color:#594a56;max-width:490px}.badge{display:inline-flex;align-items:center;gap:8px;padding:10px 15px;border:1px solid #ecd6d1;background:#ffffffaa;border-radius:999px;color:#725a60;font-size:13px;font-weight:700}.hero-photo{height:min(66vh,650px);min-height:420px;position:relative;padding:13px;background:white;border-radius:48% 48% 22px 22px;box-shadow:0 28px 75px #75515426;transform:rotate(2deg)}.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 38%;border-radius:48% 48% 15px 15px}.sticker{position:absolute;right:-18px;bottom:27px;transform:rotate(8deg);background:#fff1b9;padding:13px 17px;border-radius:15px;font-size:14px;font-weight:900;box-shadow:0 9px 22px #765d2c20}.floating{position:absolute;font-size:23px;animation:bob 3s ease-in-out infinite}.f1{top:13%;left:50%}.f2{top:61%;left:4%;animation-delay:.7s}.f3{right:7%;top:14%;animation-delay:1.3s}
+    section{padding:88px 0}.section-head{text-align:center;margin:0 auto 38px;max-width:650px}.section-head h2{font:500 clamp(36px,5vw,56px)/1.05 Georgia,serif;letter-spacing:-.04em;margin:10px 0}.section-head p{color:var(--muted);line-height:1.7;margin:10px auto}.gallery{background:#fffdfb}.photos{columns:3 230px;column-gap:16px}.photo{break-inside:avoid;margin:0 0 16px;padding:8px;background:white;border:1px solid #f0e7e2;border-radius:14px;box-shadow:0 9px 28px #442c3210;transform:rotate(var(--tilt));transition:transform .25s,box-shadow .25s}.photo:hover{transform:rotate(0) translateY(-4px);box-shadow:0 15px 34px #442c321c}.photo img{display:block;width:100%;height:auto;border-radius:8px}.photo figcaption{padding:9px 5px 4px;text-align:center;color:#806e76;font-family:Georgia,serif;font-style:italic;font-size:14px}
+    .fun{background:#f8ebec}.fun-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.fun-card{padding:23px;border-radius:20px;background:#fff;box-shadow:0 8px 24px #6844500c}.fun-card .emoji{font-size:30px}.fun-card h3{margin:12px 0 7px;font-size:17px}.fun-card p{margin:0;color:var(--muted);line-height:1.6;font-size:14px}
+    .ask{padding:94px 0 110px;text-align:center;background:radial-gradient(ellipse at 50% 10%,#ffe1ef,transparent 57%),#fff}.ask-box{max-width:760px;margin:auto;padding:clamp(30px,6vw,65px) 20px;border:1px solid #f4c9df;border-radius:30px;background:#ffffffed;box-shadow:0 24px 70px #b5286818}.ask h2{margin:12px auto 14px;font:500 clamp(39px,7vw,68px)/1.05 Georgia,serif;letter-spacing:-.05em}.ask .lead{font:20px/1.65 Georgia,serif;color:#66545e;max-width:550px;margin:0 auto 10px}.ask .today{color:var(--berry);font-weight:800}.choices{display:flex;justify-content:center;align-items:center;gap:14px;margin:29px auto 16px;flex-wrap:wrap;min-height:58px}.choice{min-width:145px;border:0;border-radius:999px;padding:15px 23px;cursor:pointer;font-weight:850;transition:transform .18s,box-shadow .18s}.choice:hover{transform:translateY(-3px);box-shadow:0 9px 20px #46253620}.yes{background:var(--berry);color:white}.no{background:#fff0f7;color:#704b60;border:1px solid #f1cadd}.no.dodging{position:fixed;z-index:20;transition:left .18s ease,top .18s ease}.screenshot-note{margin:12px auto;color:#876b7a;font-size:14px}.answer{min-height:52px;margin:14px auto 0;max-width:540px;color:#644956;line-height:1.6}.answer strong{color:var(--berry)}.footer{text-align:center;padding:24px;color:#927f86;font:italic 14px Georgia,serif}
+    .confetti{position:fixed;z-index:10;top:-16px;width:9px;height:14px;border-radius:3px;pointer-events:none;animation:fall 3.8s linear forwards}@keyframes fall{to{transform:translate(var(--drift),110vh) rotate(700deg);opacity:.15}}@keyframes bob{50%{transform:translateY(-10px) rotate(7deg)}}
+    @media(max-width:760px){.hero{min-height:auto;padding:48px 0 62px}.hero-grid{grid-template-columns:1fr;gap:34px}.hero-copy{text-align:center}.intro{margin:0 auto 20px}.hero-photo{height:55vh;min-height:340px;width:min(100%,460px);margin:auto}.f1{left:78%}.fun-grid{grid-template-columns:1fr}.photos{columns:2 145px}section{padding:66px 0}}
+    @media(max-width:390px){.photos{columns:1}.hero-photo{min-height:300px}.choice{min-width:125px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <span class="floating f1" aria-hidden="true">✨</span><span class="floating f2" aria-hidden="true">💐</span><span class="floating f3" aria-hidden="true">💖</span>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="badge">🎂 Birthday girl of the day</span>
+        <p class="eyebrow" style="margin-top:25px">A little something for</p>
+        <h1>Happy Birthday,<br><em>Sia Diva!</em></h1>
+        <p class="intro">Today is for celebrating you: your bright smile, your lovely energy, and the fact that you make ordinary days feel a little more special.</p>
+        <span class="badge">Officially wishing you 100% joy today ✨</span>
+      </div>
+      <div class="hero-photo"><img src="sia-photos/photo-6.jpg" alt="Sia smiling by the water"><span class="sticker">Certified birthday star ⭐</span></div>
+    </div>
+  </header>
+  <main>
+    <section class="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">The birthday gallery</p><h2 id="gallery-title">A few favourite moments</h2><p>Six photos, six reminders that you have excellent main-character energy.</p></div>
+        <div class="photos">
+          <figure class="photo" style="--tilt:-1deg"><img src="sia-photos/photo-1.jpg" alt="Sia relaxing beneath a tree in a blue patterned dress" loading="lazy"><figcaption>Nature called. You understood the assignment. 🌿</figcaption></figure>
+          <figure class="photo" style="--tilt:1deg"><img src="sia-photos/photo-2.jpg" alt="Black and white portrait of Sia by a tree" loading="lazy"><figcaption>Proof that black and white still has plenty of personality.</figcaption></figure>
+          <figure class="photo" style="--tilt:-.6deg"><img src="sia-photos/photo-3.jpg" alt="Close-up black and white portrait of Sia" loading="lazy"><figcaption>Camera roll: immediately upgraded. 📸</figcaption></figure>
+          <figure class="photo" style="--tilt:.8deg"><img src="sia-photos/photo-4.jpg" alt="Sia posing by the sea" loading="lazy"><figcaption>Ocean view trying its best to compete. 🌊</figcaption></figure>
+          <figure class="photo" style="--tilt:-1deg"><img src="sia-photos/photo-5.jpg" alt="Sia at the beach in a stylish pose" loading="lazy"><figcaption>Casually making the beach look like a photoshoot.</figcaption></figure>
+          <figure class="photo" style="--tilt:.7deg"><img src="sia-photos/photo-6.jpg" alt="Sia smiling in a rust-coloured dress by the water" loading="lazy"><figcaption>Birthday-star levels: frankly unfair. ✨</figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section class="fun" aria-labelledby="fun-title">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Important birthday science</p><h2 id="fun-title">Today's official report</h2><p>Our highly qualified team of birthday experts has reached these conclusions.</p></div>
+        <div class="fun-grid">
+          <article class="fun-card"><span class="emoji">🍰</span><h3>Cake calories are on holiday</h3><p>Any cake eaten today counts as a birthday celebration, not arithmetic. The committee has spoken.</p></article>
+          <article class="fun-card"><span class="emoji">👑</span><h3>Main-character status: confirmed</h3><p>Today's schedule: be celebrated, look amazing, accept compliments. Repeat as needed.</p></article>
+          <article class="fun-card"><span class="emoji">🧪</span><h3>One brave question ahead</h3><p>Birthday confidence has reached record levels. A certain someone has rehearsed this in the mirror.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="ask" id="the-question">
+      <div class="wrap"><div class="ask-box">
+        <p class="eyebrow">Okay, one birthday question…</p>
+        <h2>Sia, will you be my girlfriend?</h2>
+        <p class="lead"><span class="today">Today feels like the perfect day to ask you out</span>—and I’d be really happy if you said yes. No pressure, though. I want your honest answer.</p>
+        <div class="choices"><button class="choice yes" id="yes" type="button">Yes! 💖</button><button class="choice no" id="no" type="button">No, thank you</button></div>
+        <p class="screenshot-note">After you choose, send me a screenshot so I can see your answer 😊</p>
+        <p class="answer" id="answer" aria-live="polite">Choose whichever answer feels right. Either way, I hope your birthday is wonderful. 🎂</p>
+      </div></div>
+    </section>
+  </main>
+  <footer class="footer">Made with birthday wishes, a tiny bit of courage, and absolutely no cake-related maths.</footer>
+  <script>
+    const answer = document.querySelector('#answer');
+    const yes = document.querySelector('#yes');
+    const no = document.querySelector('#no');
+    const colors = ['#d63384','#edb84e','#f28db9','#c2a5c9','#f2a77d'];
+    function celebrate(){ for(let i=0;i<65;i++){const p=document.createElement('i');p.className='confetti';p.setAttribute('aria-hidden','true');p.style.left=`${Math.random()*100}vw`;p.style.background=colors[i%colors.length];p.style.setProperty('--drift',`${Math.random()*180-90}px`);p.style.animationDelay=`${Math.random()*.6}s`;document.body.append(p);setTimeout(()=>p.remove(),4000)} }
+    yes.addEventListener('click',()=>{answer.innerHTML='<strong>You just made my birthday wish come true! 💖</strong><br>Now I owe you a birthday treat. You choose the cake; I’ll bring the celebratory enthusiasm.';celebrate()});
+    function sayNo(){no.classList.remove('dodging');no.style.left='';no.style.top='';answer.textContent='Thank you for being honest. I still hope you have the happiest birthday, Sia Diva! 🎂';}
+    no.addEventListener('pointerenter',(event)=>{if(event.pointerType==='touch')return;no.classList.add('dodging');const pad=18;const maxX=Math.max(pad,innerWidth-no.offsetWidth-pad);const maxY=Math.max(pad,innerHeight-no.offsetHeight-pad);no.style.left=`${pad+Math.random()*(maxX-pad)}px`;no.style.top=`${pad+Math.random()*(maxY-pad)}px`;});
+    no.addEventListener('click',sayNo);
+  </script>
+</body>
+</html>
